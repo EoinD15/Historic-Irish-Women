@@ -92,13 +92,13 @@ to{
 }
 
 #cover-text {
-    font-size: 120%;
+    font-size: 100%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 
     width: 300px;
-    height: 230px;
+    height: 200px;
 
     padding-top: 30px;
     padding-left: 10px;
@@ -183,4 +183,15 @@ hr {
     background-image: url('../images/ethos-center-image.jpeg'); no-repeat center center;
     height: 100%;
     border-radius: 50%;
+}
+
+/* event times */
+
+#times {
+    background-image: url('../images/time-background.jpeg');
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
 }
