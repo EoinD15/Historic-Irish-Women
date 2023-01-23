@@ -73,7 +73,7 @@ position: relative;
 #hero-image {
     height: 800px;
     width: 100%;
-    background: url('../images/hero-image.jpeg') no-repeat center center;
+    background: url('../images/hero-image.jpg') no-repeat center center;
 
     /* aminates zoom effct on loading page */
     animation-name: hero-zoom;
@@ -98,20 +98,39 @@ to{
     letter-spacing: 4px;
 
     width: 300px;
-    height: 400px;
+    height: 230px;
 
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 10px;
 
-    background-color: rgba(100, 239, 93, 0.90);
+    background-color: rgba(84,92,33, .80);
     bottom: 30px;
     right: 150px;
     position: absolute;
 }
 
-button {
-    font-size: 120%;
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    background-color: rgba(100, 239, 93, 0.90);
+/* club ethos */
+
+#club-ethos {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
 }
